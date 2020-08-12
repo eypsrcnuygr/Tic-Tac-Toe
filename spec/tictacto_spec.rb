@@ -14,6 +14,12 @@ describe Player do
       it 'correctly places the symbol in the board' do
         expect(1..9).to include(input)
       end
+      it 'give us choices in between 1..9' do
+        expect(choices).to include(input)
+      end
+      it 'give us 9 empty blank lines as game board' do
+        expect(board.length).to eql(9)
+      end
     end
   end
 
@@ -37,6 +43,9 @@ describe Game do
     end
     it 'expects a diagonal winning case' do
       expect(true).to eql game.diagonal(%w[x x o o x _ o _ x], 'x')
+    end
+    it 'expects a not winning case' do
+      expect(false).to eql game.diagonal(%w[x x o x o _ o _ x], 'x')
     end
   end
 end
