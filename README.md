@@ -82,8 +82,12 @@ _cd Tic-Tac-Toe_
 
 **lib folder**: All game logic instructions are found between the game.rb file and player.rb files found in this folder. The game.rb file contains the board and instructions on how the program should declare a winner. The player.rb file creates the two players and instructs the program on how to handle each player's move.
 
-**spec folder**: There are 4 test cases for player.rb's methods and game.rb's methods. The test cases are for the input validation, opponent validation and winning
+**spec folder**: There are 7 test cases for player.rb's methods and game.rb's methods. The test cases are for the input validation, opponent validation and winning
 condition validation.
+
+## Automated Tests
+
+There are 7 tests have been added to the repo. Those are all checking the input and the opponent conditions and the winning condition as well. To run the tests you need to clone the repo and then install the 'rspec' and then run ```rspec``` in the local folder.
 
 ## 🤝 Contributing
 
