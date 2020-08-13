@@ -70,11 +70,24 @@ _cd Tic-Tac-Toe_
 -   LinkedIn: [Defoe Brandon](https://www.linkedin.com/in/defoebrand/)
 -   Gmail: <mailto:defoe.brand@gmail.com>
 
+👤 **Guy Gustave NIGABA**
+
+- Github: [@Guy-Gustave](https://github.com/Guy-Gustave)
+- Linkedin: [Guy-Gustave](https://www.linkedin.com/in/guy-gustave-nigaba-7988ba181/)
+- G-mail: <mailto:guymoustapha@gmail.com>
+
 ## Repository Contents
 
 **bin folder**: User interface instructions are contained in the main.rb file found in this folder. All user inputs and game outputs will be shown here.
 
 **lib folder**: All game logic instructions are found between the game.rb file and player.rb files found in this folder. The game.rb file contains the board and instructions on how the program should declare a winner. The player.rb file creates the two players and instructs the program on how to handle each player's move.
+
+**spec folder**: There are 7 test cases for player.rb's methods and game.rb's methods. The test cases are for the input validation, opponent validation and winning
+condition validation.
+
+## Automated Tests
+
+There are 7 tests have been added to the repo. Those are all checking the input and the opponent conditions and the winning condition as well. To run the tests you need to clone the repo and then install the 'rspec' and then run ```rspec``` in the local folder.
 
 ## 🤝 Contributing
 
