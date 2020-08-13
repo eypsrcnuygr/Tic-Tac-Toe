@@ -7,15 +7,15 @@ class Game
 
   def condition_checker(board, symbol)
     linear(board, symbol)
-    exitter(symbol) if diagonal(board, symbol)
+    Main.exitter(symbol) if diagonal(board, symbol)
   end
 
   def linear(board, symbol)
     3.times do |ind|
-      exitter(symbol) if board.each_slice(3).to_a[ind].all?(symbol) == true
+      Main.exitter(symbol) if board.each_slice(3).to_a[ind].all?(symbol) == true
     end
     3.times do |ind|
-      exitter(symbol) if board.each_slice(3).to_a.transpose[ind].all?(symbol) == true
+      Main.exitter(symbol) if board.each_slice(3).to_a.transpose[ind].all?(symbol) == true
     end
   end
 
