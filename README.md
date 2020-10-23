@@ -1,6 +1,7 @@
 # Tic-Tac-Toe
 
-This is a simple Tic-Tac-Toe game
+This is a simple Tic-Tac-Toe game. It is built with Ruby. You can play with a friend or play against a computer. The computer choices are random, not optimized.
+You can see more about the contents and test cases below.
 
 ## Built With
 
